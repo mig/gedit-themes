@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<style-scheme id="zenburn" name="Zenburn" version="1.0">
+	<author/>
+	<_description>Zenburn theme</_description>
+	<style foreground="#dca3a3" name="def:boolean"/>
+	<style foreground="#7f9f7f" name="def:comment"/>
+	<style bold="true" foreground="#dca3a3" name="def:constant"/>
+	<style background="#8faf9f" bold="true" foreground="#000d18" name="cursor"/>
+	<style background="#313c36" bold="true" foreground="#709080" name="diff:added-line"/>
+	<style background="#333333" name="diff:changed-line"/>
+	<style background="#464646" foreground="#333333" name="diff:removed-line"/>
+	<style foreground="#efef8f" name="def:function"/>
+	<style foreground="#efdcbc" name="def:identifier"/>
+	<style bold="true" foreground="#f0dfaf" name="def:keyword"/>
+	<style background="#464646" foreground="#7f8f8f" name="line-numbers"/>
+	<style background="#3f3f3f" foreground="#dcdccc" name="text"/>
+	<style foreground="#8cd0d3" name="def:number"/>
+	<style bold="true" foreground="#ffcfaf" name="def:preprocessor"/>
+	<style background="#385f38" foreground="#ffffe0" name="search-match"/>
+	<style foreground="#cfbfaf" name="def:specials"/>
+	<style background="#3f3f3f" foreground="#e3ceab" name="def:statement"/>
+	<style foreground="#cc9393" name="def:string"/>
+	<style bold="true" foreground="#dfdfbf" name="def:type"/>
+	<style background="#201010" bold="true" foreground="#ef9f9f" name="def:error"/>
+	<style background="#332323" foreground="#e37170" name="def:error"/>
+</style-scheme>
+

@@ -45,14 +45,14 @@
   <color name="steelblue3" value="#4f94cd"/>
 
 <!-- Global Settings -->
-
   <style name="text" foreground="white" background="dark_blue"/>
   <style name="cursor" foreground="white"/>
   <style name="current-line" background="medium_blue"/>
   <style name="line-numbers" foreground="light_blue" background="black_blue"/>
+  <style name="draw-spaces" foreground="medium_blue"/>
   
 <!-- Bracket Matching -->
-  <style name="bracket-match" background="steelblue3"/>
+  <style name="bracket-match" foreground="bright_orange" bold="true"/>
   <style name="bracket-mismatch" background="dark_maroon" bold="true"/>
   <style name="search-match" foreground="white" background="sky_blue"/>
 

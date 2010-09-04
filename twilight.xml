@@ -85,6 +85,7 @@
   <style name="def:note" foreground="yellow" bold="true"/>
   <style name="def:net-address-in-comment" foreground="steelblue3" italic="false" underline="true"/>
   <style name="def:preprocessor" foreground="light_grey"/>
+  <style name="def:function" foreground="off_white" underline="true"/>
     
 <!-- Unknown? -->
   <style name="def:specials" background="faded_cornwall"/>

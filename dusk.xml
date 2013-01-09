@@ -6,6 +6,8 @@
 	<style background="#Green" foreground="#Black" name="cursor"/>
 	<style background="#bg" foreground="#MistyRose3" name="line-numbers"/>
 	<style background="#Bisque" foreground="#SkyBlue4" name="search-match"/>
+	<style background="#1A293D" name="current-line"/>
+	
 	<style background="#LightCyan" foreground="#Blue" name="diff:added-line"/>
 	<style background="#LightCyan4" foreground="#white" name="diff:changed-line"/>
 	<style background="#LightCyan" foreground="#LightBlue" name="diff:removed-line"/>

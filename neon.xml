@@ -9,6 +9,8 @@
 	<style background="#0020a0" foreground="#a0d0ff" name="diff:added-line"/>
 	<style background="#8040ff" foreground="#70ffc0" name="cursor"/>
 	<style foreground="#707070" name="line-numbers"/>
+	<style background="#3E453E" name="current-line"/>
+	
 	<style foreground="#c0c0c0" name="def:comment"/>
 	<style foreground="#92d4ff" name="def:constant"/>
 	<style background="#8000ff" foreground="#ffffff" name="def:error"/>

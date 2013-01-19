@@ -17,7 +17,9 @@
 # Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
 
 # Notes:
-# This script only works for Gedit 3
+#
+# - This script was only tested on Ubuntu 12.04 and Gedit 3.4. It won't work on Ubuntu 12.10.
+# - A better install script is on its way.
 
 INSTALL_DIR="$HOME/.local/share/gedit/styles"
 

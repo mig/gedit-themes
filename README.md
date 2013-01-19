@@ -12,7 +12,15 @@ The install script could use some more work, but should be fully functional as i
 
 ## Changelog
 
+### 0.2.0
+ - Completely redesign install script to be more flexible and fail proof
+
 ### 0.1.0
  - Replace install script with new one that works with Gedit 3
  - Remove railscasts2 and Rainbow Neon themes
  - Modify some themes that had no defined background color for current-line so that it always looks good
+ 
+## Acknowledgements
+
+This theme bundle is based on the work of Matthew Swasey (mig). Also includes a build script which is heavily inspired
+by the installer script of Solarized for Gedit by Matthew Cantelon (mattcan).

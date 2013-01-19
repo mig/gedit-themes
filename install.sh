@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 #
 # Copyright (C) 2012 Ricardo Graça
 #
@@ -9,7 +9,7 @@
 #
 # This program is distributed in the hope that it will be useful,
 # but WITHOUT ANY WARRANTY; without even the implied warranty of
-# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
 # GNU General Public License for more details.
 #
 # You should have received a copy of the GNU General Public License
@@ -18,17 +18,78 @@
 
 # Notes:
 #
-# - This script was only tested on Ubuntu 12.04 and Gedit 3.4. It won't work on Ubuntu 12.10.
-# - A better install script is on its way.
+# - This script was only tested on Ubuntu 12.04 and Gedit 3.4, but it should
+#   work in other linux distros as well.
 
-INSTALL_DIR="$HOME/.local/share/gedit/styles"
+INSTALL_DIR="$HOME/.local/share/gtksourceview-3.0/styles"
 
-echo "Installing Gedit themes..."
+# Print usage instructions of the script
+function usage {
+cat << EOF
+usage: $0 [options]
 
-if [ ! -d "$INSTALL_DIR" ]; then
-	mkdir "$INSTALL_DIR"
+This script installs the bundled theme styles for gedit.
+
+OPTIONS:
+  -h    Shows this message
+  -a    Install for all users
+EOF
+}
+
+# Check if destination directory exists and create it if it doesn't.
+# Will return an error code if anything fails, stopping the script execution.
+function chkdir {
+	if [ ! -d "$INSTALL_DIR" ]; then
+		if [[ $INSTALL_DIR = /usr/* ]]; then
+			sudo mkdir -p "$INSTALL_DIR" || { return 1; }
+		else
+			mkdir -p "$INSTALL_DIR" || { return 1; }
+		fi
+	fi
+
+	return 0
+}
+
+# Copy theme files to destination directory 
+function cpfiles {
+	if [[ $INSTALL_DIR = /usr/* ]]; then
+		sudo cp *.xml "$INSTALL_DIR" || { return 1; }
+	else
+		cp *.xml "$INSTALL_DIR" || { return 1; }
+	fi
+	
+	return 0
+}
+
+# Loop through passed arguments
+while getopts "ha" OPTION; do
+	case $OPTION in
+		h)
+			usage
+			exit 1
+			;;
+		a)
+			INSTALL_DIR="/usr/share/gtksourceview-3.0/styles"
+			;;
+	esac
+done
+
+echo -e "Installing Gedit themes to $INSTALL_DIR\n..."
+
+chkdir
+SUCCESS=$?
+
+if [ $SUCCESS -eq 0 ]; then
+	cpfiles
+	
+	if [ $? -eq 0 ]; then
+		echo -e "...\nAll done!\n:)"
+		exit 0
+	else
+		echo -e "Unable to copy themes to $INSTALL_DIR\n:("
+		exit 1
+	fi
+else
+	echo -e "The destination directory $INSTALL_DIR doesn't exist and I can't create it either!\n:("
+	exit 1
 fi
-
-cp ./*.xml $INSTALL_DIR/.
-
-echo "All done!"

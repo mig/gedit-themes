@@ -23,5 +23,7 @@
 	<style bold="true" foreground="#dfdfbf" name="def:type"/>
 	<style background="#201010" bold="true" foreground="#ef9f9f" name="def:error"/>
 	<style background="#332323" foreground="#e37170" name="def:error"/>
+	<style name="selection" background="#ef7950" />
+	<style name="selection-unfocused" background="#ef7950" />
 </style-scheme>
 

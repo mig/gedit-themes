@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+   
+  Copyright 2013 Tomasz Wyderka <wyderkat(at)cofoh(dot)com>
+  
+  This program is free software; you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published by
+  the Free Software Foundation; either version 2 of the License, or
+  (at your option) any later version.
+ 
+  This program is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with this program; if not, write to the Free Software
+  Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston,
+  MA 02110-1301, USA.
+
+-->
+
+<style-scheme id="metallic_bottle" _name="Metallic Bottle" version="1.0">
+
+  <_description>Bright color scheme matching GTK "Radiance" theme. </_description>
+
+  <author>Tomasz Wyderka</author>
+  <!-- http://www.cofoh.com/mettalic_bottle -->
+
+  <!-- Palette -->
+  <color name="b"                   value="#000000"/>
+  <color name="w"                   value="#ffffff"/>
+  <color name="fb"                  value="#FBFAF9"/>
+  <color name="c4"                  value="#C48C65"/>
+  <color name="df"                  value="#DFD7CF"/>
+  <color name="75"                  value="#757C75"/>
+  <color name="84"                  value="#843121"/>
+  <color name="4b"                  value="#4B4A3A"/>
+  <color name="64"                  value="#644129"/>
+  <color name="3d"                  value="#3D291C"/>
+  <color name="1d"                  value="#1D1613"/>
+  <color name="d0"                  value="#D0C096"/>
+
+
+  <!-- Global Settings -->
+  <style name="text"                        foreground="b" background="fb"/>
+  <style name="selection"                   foreground="b" background="c4" italic="true"/>
+  <style name="cursor"                      foreground="84"/>
+  <style name="current-line"                foreground="b" background="w"/>
+  <style name="line-numbers"                foreground="b" background="df"/>
+  <style name="draw-spaces"                 foreground="df"/>
+
+  <!-- Bracket Matching -->
+  <style name="bracket-match"               foreground="75" bold="true"/>
+  <style name="bracket-mismatch"            foreground="84" bold="true"/>
+
+  <!-- Right Margin -->
+  <style name="right-margin"                foreground="df" background="df"/>
+  
+  <!-- Search Matching -->
+  <style name="search-match"                foreground="b" background="84"/>
+
+  <!-- Comments -->
+  <style name="def:comment"                 foreground="75" italic="true"/>
+  <style name="def:shebang"                 foreground="75" bold="true"/>
+  <style name="def:doc-comment-element"     foreground="4b" italic="true"/>
+
+  <!-- Constants -->
+  <style name="def:constant"                foreground="64"/>
+  <style name="def:string"                  foreground="4b"/>
+  <style name="def:special-char"            foreground="64"/>
+  <style name="def:special-constant"        foreground="3d" bold="true" italic="true"/>
+  <style name="def:floating-point"          foreground="64"/>
+
+  <!-- Identifiers -->
+  <style name="def:identifier"              foreground="3d" bold="true" italic="true"/>
+
+  <!-- Statements -->
+  <style name="def:statement"               foreground="1d" bold="true"/>
+
+  <!-- Types -->
+  <style name="def:type"                    foreground="84" bold="true"/> 
+
+  <!-- Others -->
+  <style name="def:preprocessor"            foreground="c4"/>
+  <style name="def:error"                   foreground="w" background="84" bold="true"/>
+
+  <!-- what is this? -->
+  <style name="def:note"                    background="fb" foreground="b" bold="true"/>
+  <style name="def:underlined"              italic="true" underline="true"/>
+
+  <!-- Language specific -->
+  <style name="diff:added-line"             foreground="c4"/>
+  <style name="diff:removed-line"           foreground="84"/>
+  <style name="diff:changed-line"           foreground="fb"/>
+  <style name="diff:diff-file"              foreground="b" bold="true"/> 
+  <style name="diff:location"               foreground="b" italic="true" bold="true"/> 
+  <style name="diff:special-case"           foreground="d0" bold="true"/>
+
+  <style name="latex:display-math"          foreground="b" bold="true"/>
+  <style name="latex:command"               foreground="fb" bold="true"/>
+  <style name="latex:include"               use-style="def:preprocessor"/>
+
+</style-scheme>
+

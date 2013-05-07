@@ -1,4 +1,4 @@
 #!/bin/sh
 set -v
 
-sudo cp ./*.xml $HOME/.gnome2/gedit/styles/.
+sudo cp ./*.xml /usr/share/gtksourceview-3.0/styles/.

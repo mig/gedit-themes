@@ -48,7 +48,9 @@
   <style name="cursor" foreground="off_white"/>
   <style name="current-line" background="tinted_grey"/>
   <style name="line-numbers" foreground="light_grey" background="black_grey"/>
-  
+  <style name="selection" background="dark_grey" />
+  <style name="selection-unfocused" foreground="white" background="dark_grey" />
+
 <!-- Bracket Matching -->
   <style name="bracket-match" background="steelblue3"/>
   <style name="bracket-mismatch" background="dark_maroon" bold="true"/>
@@ -70,7 +72,7 @@
   <style name="def:keyword" foreground="washed_orange" bold="true"/>
   <style name="def:builtin" foreground="washed_orange" bold="true"/>
   <style name="def:variable" foreground="faded_cornwall"/>
-  
+
 <!-- Identifiers -->
   <style name="def:identifier" foreground="faded_cornwall"/>
 
@@ -79,14 +81,14 @@
 
 <!-- Types -->
   <style name="def:type" foreground="faded_violet"/>
-  
+
 <!-- Others -->
   <style name="def:error" foreground="off_white" background="dark_maroon" bold="true"/>
   <style name="def:note" foreground="yellow" bold="true"/>
   <style name="def:net-address-in-comment" foreground="steelblue3" italic="false" underline="true"/>
   <style name="def:preprocessor" foreground="light_grey"/>
   <style name="def:function" foreground="off_white" underline="true"/>
-    
+
 <!-- Unknown? -->
   <style name="def:specials" background="faded_cornwall"/>
 
@@ -103,7 +105,7 @@
 
 <!-- SH Styles -->
   <style name="sh:others" map-to="text"/>
-  
+
 <!-- XML Styles -->
   <style name="xml:attribute-name" foreground="washed_orange"/>
   <style name="xml:element-name" foreground="faded_cornwall"/>

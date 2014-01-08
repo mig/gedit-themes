@@ -43,6 +43,8 @@
 <!-- Global Settings -->
 
   <style name="text" foreground="black" background="off_white"/>
+  <style name="selection" background="medium_grey"/>
+  <style name="selection-unfocused" background="light_grey"/>
   <style name="cursor" foreground="black"/>
   <style name="current-line" background="light_grey"/>
   <style name="line-numbers" foreground="dark_grey" background="off_white"/>

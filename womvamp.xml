@@ -7,6 +7,8 @@
 	<style background="#656565" name="cursor"/>
 	<style background="#141414" foreground="#f6f3e8" name="text"/>
 	<style background="#000000" foreground="#857b6f" name="line-numbers"/>
+	<style background="#857b6f" name="selection"/>
+
 	<style foreground="#99968b" italic="true" name="def:comment"/>
 	<style foreground="#e5786d" name="def:constant"/>
 	<style foreground="#95e454" italic="true" name="def:string"/>
@@ -19,4 +21,3 @@
 	<style foreground="#e5786d" name="def:number"/>
 	<style foreground="#e7f6da" name="def:specials"/>
 </style-scheme>
-

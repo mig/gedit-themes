@@ -7,7 +7,8 @@
 	<style background="#bg" foreground="#MistyRose3" name="line-numbers"/>
 	<style background="#Bisque" foreground="#SkyBlue4" name="search-match"/>
 	<style background="#1A293D" name="current-line"/>
-	
+	<style background="#Lavender" foreground="#1A293D" name="selection"/>
+
 	<style background="#LightCyan" foreground="#Blue" name="diff:added-line"/>
 	<style background="#LightCyan4" foreground="#white" name="diff:changed-line"/>
 	<style background="#LightCyan" foreground="#LightBlue" name="diff:removed-line"/>
@@ -22,4 +23,3 @@
 	<style background="#bg" foreground="#ffa0a0" name="def:preprocessor"/>
 	<style background="#bg" foreground="#NavajoWhite" name="def:type"/>
 </style-scheme>
-

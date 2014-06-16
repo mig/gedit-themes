@@ -28,7 +28,7 @@
   <color name="background" value="#F8F8FF"/>
   <color name="caret" value="#000000"/>
   <color name="foreground" value="#000000"/>
-  <color name="highlight" value="#00000012"/>
+  <color name="highlight" value="#000012"/>
   <color name="comment" value="#999988"/>
   <color name="keyword" value="#000000"/>
   <color name="function" value="#990000"/>
@@ -40,14 +40,17 @@
   <color name="string" value="#DD1144"/>
   <color name="symbol" value="#AA2C8C"/>
   <color name="identifier" value="#0086b3"/>
+  <color name="selection" value="#B7D0ED"/>
+  <color name="current-line" value="#F2E5BF"/>
 
 <!-- Global Settings -->
 
   <style name="text" foreground="foreground" background="background"/>
   <style name="cursor" foreground="foreground"/>
-  <style name="current-line" background="background"/>
+  <style name="current-line" background="current-line"/>
   <style name="line-numbers" foreground="foreground" background="background"/>
-  
+  <style name="selection" background="selection"/>
+
 <!-- Bracket Matching -->
   <style name="bracket-match" background="highlight"/>
   <style name="bracket-mismatch" background="highlight" bold="true"/>
@@ -69,7 +72,7 @@
   <style name="def:keyword" foreground="keyword" bold="true"/>
   <style name="def:builtin" foreground="foreground" bold="true"/>
   <style name="def:variable" foreground="variable"/>
-  
+
 <!-- Identifiers -->
   <style name="def:identifier" foreground="identifier"/>
 
@@ -78,13 +81,13 @@
 
 <!-- Types -->
   <style name="def:type" foreground="class" bold="true"/>
-  
+
 <!-- Others -->
   <style name="def:error" foreground="highlight" bold="true"/>
   <style name="def:note" foreground="highlight" bold="true"/>
   <style name="def:net-address-in-comment" foreground="variable" italic="false" underline="true"/>
   <style name="def:preprocessor" foreground="highlight"/>
-    
+
 <!-- Unknown? -->
   <style name="def:specials" background="identifier"/>
 
@@ -102,7 +105,7 @@
 
 <!-- SH Styles -->
   <style name="sh:others" map-to="text"/>
-  
+
 <!-- XML Styles -->
   <style name="xml:attribute-name" foreground="keyword"/>
   <style name="xml:element-name" foreground="keyword"/>

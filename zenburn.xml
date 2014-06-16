@@ -2,6 +2,7 @@
 <style-scheme id="zenburn" name="Zenburn" version="1.0">
 	<author/>
 	<_description>Zenburn theme</_description>
+	<style background="#7f9f7f" name="selection"/>
 	<style foreground="#dca3a3" name="def:boolean"/>
 	<style foreground="#7f9f7f" name="def:comment"/>
 	<style bold="true" foreground="#dca3a3" name="def:constant"/>

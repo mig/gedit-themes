@@ -47,10 +47,11 @@
 <!-- Global Settings -->
   <style name="text" foreground="white" background="dark_blue"/>
   <style name="cursor" foreground="white"/>
-  <style name="current-line" background="medium_blue"/>
+  <style name="current-line" background="black_blue"/>
   <style name="line-numbers" foreground="light_blue" background="black_blue"/>
   <style name="draw-spaces" foreground="medium_blue"/>
-  
+  <style name="selection" foreground="steelblue3" background="medium_blue"/>
+
 <!-- Bracket Matching -->
   <style name="bracket-match" foreground="bright_orange" bold="true"/>
   <style name="bracket-mismatch" background="dark_maroon" bold="true"/>
@@ -72,7 +73,7 @@
   <style name="def:keyword" foreground="bright_orange" bold="true"/>
   <style name="def:builtin" foreground="bright_orange" bold="true"/>
   <style name="def:variable" foreground="light_grey"/>
-  
+
 <!-- Identifiers -->
   <style name="def:identifier" foreground="light_grey"/>
 
@@ -81,13 +82,13 @@
 
 <!-- Types -->
   <style name="def:type" foreground="teal_blue"/>
-  
+
 <!-- Others -->
   <style name="def:error" foreground="white" background="dark_maroon" bold="true"/>
   <style name="def:note" foreground="neon_pink" bold="true"/>
   <style name="def:net-address-in-comment" foreground="teal_blue" italic="false" underline="true"/>
   <style name="def:preprocessor" foreground="light_grey"/>
-    
+
 <!-- Unknown? -->
   <style name="def:specials" foreground="white" background="neon_pink"/>
 
@@ -105,7 +106,7 @@
 <!-- SH Styles -->
   <style name="sh:function" foreground="neon_pink"/>
   <style name="sh:others" map-to="text"/>
-  
+
 <!-- XML Styles -->
   <style name="xml:attribute-name" foreground="light_grey"/>
   <style name="xml:element-name" foreground="teal_blue"/>

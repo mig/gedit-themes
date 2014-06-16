@@ -10,7 +10,8 @@
 	<style background="#8040ff" foreground="#70ffc0" name="cursor"/>
 	<style foreground="#707070" name="line-numbers"/>
 	<style background="#3E453E" name="current-line"/>
-	
+	<style background="#ffffa8" foreground="#303030" name="selection"/>
+
 	<style foreground="#c0c0c0" name="def:comment"/>
 	<style foreground="#92d4ff" name="def:constant"/>
 	<style background="#8000ff" foreground="#ffffff" name="def:error"/>
@@ -20,4 +21,3 @@
 	<style foreground="#dcdc78" name="def:statement"/>
 	<style foreground="#60f0a8" name="def:type"/>
 </style-scheme>
-

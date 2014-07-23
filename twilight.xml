@@ -2,6 +2,7 @@
 <!--
 
  Copyright (C) 2006-2007 Will Farrington <wcfarrington@gmail.com>
+ Copyright (C) 2012 Renato Silva <br.renatosilva@gmail.com>
 
  This library is free software; you can redistribute it and/or
  modify it under the terms of the GNU Library General Public
@@ -19,15 +20,15 @@
  Boston, MA 02111-1307, USA.
 
 -->
-<style-scheme id="twilight" _name="Twilight" version="1.0">
+<style-scheme id="twilight" _name="Twilight" version="1.1">
   <author>Will Farrington</author>
   <_description>Soft, dark color scheme, based on the style of the same name from pastie.caboo.se</_description>
 
 <!-- Colors -->
 
   <color name="off_white" value="#f8f8f8"/>
-  <color name="black_grey" value="#141414"/>
-  <color name="tinted_grey" value="#3f3c40"/>
+  <color name="black_grey" value="#242424"/>
+  <color name="tinted_grey" value="#343434"/>
   <color name="dark_grey" value="#665f57"/>
   <color name="med_grey" value="#888888"/>
   <color name="light_grey" value="#a6a6a6"/>
@@ -41,15 +42,18 @@
   <color name="super_faded_orange" value="#e9c062"/>
   <color name="dark_maroon" value="#002f29"/>
   <color name="yellow" value="#f9ee98"/>
+  <color name="yellow++" value="#e8dd8e"/>
+  <color name="grey++" value="#5f5a60"/>
+  <color name="red++" value="#cd6749"/>
+  <color name="blue++" value="#8fc6e8"/>
 
 <!-- Global Settings -->
 
   <style name="text" foreground="off_white" background="black_grey"/>
+  <style name="selection" foreground="off_white" background="dark_grey"/>
   <style name="cursor" foreground="off_white"/>
   <style name="current-line" background="tinted_grey"/>
   <style name="line-numbers" foreground="light_grey" background="black_grey"/>
-  <style name="selection" background="dark_grey" />
-  <style name="selection-unfocused" foreground="white" background="dark_grey" />
 
 <!-- Bracket Matching -->
   <style name="bracket-match" background="steelblue3"/>
@@ -96,7 +100,13 @@
   <style name="c:preprocessor" map-to="def:special-char"/>
 
 <!-- Diff Styles -->
-  <style name="diff:ignore" foreground="med_grey"/>
+  <style name="diff:added-line" foreground="blue++"/>
+  <style name="diff:removed-line" foreground="red++"/>
+  <style name="diff:changed-line" foreground="olive_green"/>
+  <style name="diff:diff-file" foreground="yellow++"/>
+  <style name="diff:location" foreground="grey++"/>
+  <style name="diff:special-case" foreground="off_white" bold="true"/>
+
 
 <!-- Ruby Styles -->
   <style name="ruby:module-handler" foreground="washed_orange"/>

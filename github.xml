@@ -28,7 +28,7 @@
   <color name="background" value="#F8F8FF"/>
   <color name="caret" value="#000000"/>
   <color name="foreground" value="#000000"/>
-  <color name="highlight" value="#00000012"/>
+  <color name="highlight" value="#0000012"/>
   <color name="comment" value="#999988"/>
   <color name="keyword" value="#000000"/>
   <color name="function" value="#990000"/>

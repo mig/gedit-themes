@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  GEdit theme heavily inspired by the Adobe Brackets WebDE. Best with the 
+  Brackets Source-Code-Pro font, which can be downloaded there:
+  https://github.com/adobe/Source-Code-Pro
+  
+  On Gnome Tweak Tool, set Hinting to "Slight" and Antialiasing to "Grayscale"
+
+  Enjoy!
+-->
+
+<style-scheme id="brackets" _name="Brackets" version="1.0">
+  <author>R. Tisserand</author>
+	<_description>An Adobe Brackets theme clone for GEdit</_description>
+
+<!-- Colors -->
+
+  <!-- Done -->
+  <color name="background" value="#F8F8F8"/>
+  <color name="foreground" value="#535353"/>
+  <color name="caret" value="#000000"/>
+  <color name="string" value="#EB9B2F"/>
+  <color name="number" value="#6D8600"/>
+  <color name="keyword" value="#4F77C0"/>
+<!--  <color name="current-line" value="#F2E5BF"/> -->
+  <color name="comment" value="#909090"/>
+  <color name="highlight" value="#ABDFFA"/>
+  <color name="class" value="#577EC4"/>
+  <color name="selection" value="#ABDFFA"/>
+  
+  <color name="function" value="#990000"/>
+  <color name="variable" value="#008080"/>
+  <color name="constant" value="#4F77C0"/>
+  <color name="constant2" value="#535353"/>
+  <color name="symbol" value="#956AB6"/>
+  <color name="identifier" value="#956AB6"/>
+  <color name="white" value="#FFFFFF"/>
+
+<!-- Global Settings -->
+
+  <!-- Done -->
+  <style name="line-numbers" foreground="#BBBBBB" background="background"/>
+<!--  <style name="current-line" background="current-line"/> -->
+
+  <style name="text" foreground="foreground" background="background"/>
+  <style name="cursor" foreground="foreground"/>
+  <style name="selection" background="selection"/>
+
+<!-- Bracket Matching -->
+  <style name="bracket-match" background="highlight"/>
+  <style name="bracket-mismatch" background="highlight" bold="true"/>
+  <style name="search-match" foreground="foreground" background="caret"/>
+
+<!-- Comments -->
+  <!-- Done -->
+  <style name="def:comment" foreground="comment" italic="false"/>
+  <style name="def:shebang" foreground="comment" italic="false"/>
+  
+  <style name="def:doc-comment-element" foreground="comment" bold="true"/>
+
+<!-- Constants and Variables-->
+  <style name="def:constant" foreground="constant"/>
+  <style name="def:string" foreground="string"/>
+  <style name="def:special-char" foreground="string"/>
+  <style name="def:special-constant" foreground="constant" bold="true"/>
+  <style name="def:boolean" foreground="constant"/>
+  <style name="def:number" foreground="number"/>
+  <style name="def:floating-point" foreground="number"/>
+  <style name="def:keyword" foreground="keyword" bold="true"/>
+  <style name="def:builtin" foreground="foreground" bold="true"/>
+  <style name="def:variable" foreground="variable"/>
+
+<!-- Identifiers -->
+  <style name="def:identifier" foreground="identifier"/>
+
+<!-- Statements -->
+  <style name="def:statement" foreground="constant"/>
+
+<!-- Types -->
+  <style name="def:type" foreground="class" bold="false"/>
+
+<!-- Others -->
+  <style name="def:error" foreground="highlight" bold="true"/>
+  <style name="def:note" foreground="highlight" bold="true"/>
+  <style name="def:net-address-in-comment" foreground="variable" italic="false" underline="true"/>
+  <style name="def:preprocessor" foreground="highlight"/>
+
+<!-- Unknown? -->
+  <style name="def:specials" background="identifier"/>
+
+<!-- C Styles -->
+  <style name="c:preprocessor" map-to="def:special-char"/>
+
+<!-- Diff Styles -->
+  <style name="diff:ignore" foreground="highlight"/>
+
+<!-- Ruby Styles -->
+  <style name="ruby:module-handler" foreground="identifier"/>
+  <style name="ruby:symbol" foreground="symbol"/>
+  <style name="ruby:regex" foreground="number"/>
+  <style name="ruby:function" foreground="function"/>
+
+<!-- SH Styles -->
+  <style name="sh:others" map-to="text"/>
+
+<!-- XML Styles -->
+  <style name="xml:attribute-name" foreground="keyword"/>
+  <style name="xml:element-name" foreground="keyword"/>
+
+</style-scheme>
+

@@ -48,7 +48,8 @@
   <style name="cursor" foreground="white"/>
   <style name="current-line" background="gray20"/>
   <style name="line-numbers" foreground="gray70" background="carbon"/>
-  
+  <style name="selection" background="brown4"/>
+
 <!-- Bracket Matching -->
   <style name="bracket-match" background="steelblue3"/>
   <style name="bracket-mismatch" background="purple" bold="true"/>
@@ -70,7 +71,7 @@
   <style name="def:keyword" foreground="orange" bold="true"/>
   <style name="def:builtin" foreground="lightskyblue"/>
   <style name="def:variable" foreground="magenta3"/>
-  
+
 <!-- Identifiers -->
   <style name="def:identifier" foreground="magenta3"/>
 
@@ -79,13 +80,13 @@
 
 <!-- Types -->
   <style name="def:type" foreground="blue"/>
-  
+
 <!-- Others -->
   <style name="def:error" foreground="white" background="red" bold="true"/>
   <style name="def:note" foreground="black" background="orange" bold="true"/>
   <style name="def:net-address-in-comment" foreground="blue" italic="true" underline="true"/>
   <style name="def:preprocessor" foreground="purple" bold="true"/>
-    
+
 <!-- Unknown? -->
   <style name="def:specials" foreground="white" background="magenta3"/>
 
@@ -107,7 +108,7 @@
   <style name="sh:variable1" foreground="magenta3"/>
   <style name="sh:variable2" foreground="magenta3"/>
   <style name="sh:others" map-to="text"/>
-  
+
 <!-- XML Styles -->
   <style name="xml:attribute-name" foreground="magenta3"/>
   <style name="xml:element-name" foreground="blue"/>

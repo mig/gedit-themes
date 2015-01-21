@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
 
- Copyright (C) 2006-2007 Will Farrington <wcfarrington@gmail.com> &
+ Copyright (C) 2006-2007 Will Farrington <wcfarrington@gmail.com> & 
   Matthew Swasey <matt@viget.com>
-
+ 
 
  This library is free software; you can redistribute it and/or
  modify it under the terms of the GNU Library General Public
@@ -21,9 +21,9 @@
  Boston, MA 02111-1307, USA.
 
 -->
-<style-scheme id="vibrantnerd" _name="Vibrant Nerd" version="1.0">
-  <author>Matt Swasey (re Will Farrington)</author>
-  <_description>Hack of Darkmacs</_description>
+<style-scheme id="vibrantgeek" _name="Vibrant Geek" version="1.0">
+  <author>Stefan Thesing</author>
+  <_description>Hack of Vibrant Nerd</_description>
 
 <!-- Colors  -->
   <color name="gray20" value="#333333"/>
@@ -42,6 +42,8 @@
   <color name="palevioletred2" value="#ee799f"/>
   <color name="brown4" value="#8b2323"/>
   <color name="red" value="#ff0000"/>
+  <color name="asfalto" value="#555753"/>
+  <color name="gray" value="#bbbbbb"/>
 
 <!-- Global Settings -->
 
@@ -49,8 +51,9 @@
   <style name="cursor" foreground="white"/>
   <style name="current-line" background="gray20"/>
   <style name="line-numbers" foreground="gray70" background="carbon"/>
-  <style name="selection" background="carbon"/>
-
+  <style name="selection" background="asfalto"/>
+  <style name="selection-unfocused" foreground="white" background="gray"/>
+  
 <!-- Bracket Matching -->
   <style name="bracket-match" background="steelblue3"/>
   <style name="bracket-mismatch" background="purple" bold="true"/>
@@ -72,7 +75,7 @@
   <style name="def:keyword" foreground="orange" bold="true"/>
   <style name="def:builtin" foreground="lightskyblue"/>
   <style name="def:variable" foreground="purple"/>
-
+  
 <!-- Identifiers -->
   <style name="def:identifier" foreground="purple"/>
 
@@ -81,13 +84,13 @@
 
 <!-- Types -->
   <style name="def:type" foreground="blue"/>
-
+  
 <!-- Others -->
   <style name="def:error" foreground="white" background="red" bold="true"/>
   <style name="def:note" foreground="black" background="orange" bold="true"/>
   <style name="def:net-address-in-comment" foreground="blue" italic="true" underline="true"/>
   <style name="def:preprocessor" foreground="purple" bold="true"/>
-
+    
 <!-- Unknown? -->
   <style name="def:specials" foreground="white" background="purple"/>
 
@@ -109,7 +112,7 @@
   <style name="sh:variable1" foreground="purple"/>
   <style name="sh:variable2" foreground="purple"/>
   <style name="sh:others" map-to="text"/>
-
+  
 <!-- XML Styles -->
   <style name="xml:attribute-name" foreground="purple"/>
   <style name="xml:element-name" foreground="blue"/>

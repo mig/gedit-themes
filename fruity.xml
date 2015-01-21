@@ -7,6 +7,8 @@
 	<style background="#ffae00" foreground="#800000" name="search-match"/>
 	<style background="#181818" name="current-line"/>
 	<style background="#222222" foreground="#aaaaaa" name="line-numbers"/>
+	<style background="#fb660a" foreground="#ffffff" name="selection"/>
+
 	<style foreground="#fd8900" name="def:specials"/>
 	<style foreground="#0086d2" name="def:string"/>
 	<style foreground="#0086d2" name="def:constant"/>
@@ -19,4 +21,3 @@
 	<style background="#ab0000" foreground="#ffffff" name="def:error"/>
 	<style bold="true" foreground="#ff0086" name="def:identifier"/>
 </style-scheme>
-

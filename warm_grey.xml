@@ -1,5 +1,5 @@
 <?xml version="1.0" ?>
-<style-scheme id="warm_grey" name="Warm_Grey" version="1.0">
+<style-scheme id="warm_grey" name="Warm Grey" version="1.0">
 	<author/>
 	<_description>Warm Grey</_description>
 	<style background="#e4e2e0" name="current-line"/>
@@ -7,6 +7,8 @@
 	<style background="#b8b4b0" foreground="#black" name="cursor"/>
 	<style background="#d8d4d0" foreground="#646260" italic="true" name="line-numbers"/>
 	<style background="#f0f0f0" foreground="#444240" name="text"/>
+	<style background="#705060" foreground="#e4e2e0" name="selection"/>
+
 	<style foreground="#848280" italic="true" name="def:comment"/>
 	<style foreground="#000000" name="def:constant"/>
 	<style foreground="#804020" name="def:string"/>
@@ -22,4 +24,3 @@
 	<style background="#c0e0d0" bold="true" name="diff:added-line"/>
 	<style background="#f0a0a0" name="diff:removed-line"/>
 </style-scheme>
-

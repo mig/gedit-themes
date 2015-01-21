@@ -38,7 +38,7 @@
   <color name="constant" value="#6d9cbe"/>
   <color name="constant2" value="#DA4939"/>
   <color name="string" value="#a5c261"/>
-  
+
 
 <!-- Global Settings -->
 
@@ -46,8 +46,9 @@
   <style name="cursor" foreground="foreground"/>
   <style name="current-line" background="background"/>
   <style name="line-numbers" foreground="foreground" background="background"/>
-  
-<!-- Bracket Matching 
+  <style name="selection" background="#black"/>
+
+<!-- Bracket Matching
   <style name="bracket-match" background="highlight"/>
   <style name="bracket-mismatch" background="highlight" bold="true"/>
   <style name="search-match" foreground="foreground" background="caret"/> -->
@@ -68,7 +69,7 @@
   <style name="def:keyword" foreground="keyword" bold="true"/>
   <style name="def:builtin" foreground="function" bold="true"/>
   <style name="def:variable" foreground="variable"/>
-  
+
 <!-- Identifiers -->
   <style name="def:identifier" foreground="variable"/>
 
@@ -77,13 +78,13 @@
 
 <!-- Types -->
   <style name="def:type" foreground="constant2"/>
-  
+
 <!-- Others -->
   <style name="def:error" foreground="highlight" bold="true"/>
   <style name="def:note" foreground="highlight" bold="true"/>
   <style name="def:net-address-in-comment" foreground="variable" italic="false" underline="true"/>
   <style name="def:preprocessor" foreground="highlight"/>
-    
+
 <!-- Unknown? -->
   <style name="def:specials" background="class"/>
 
@@ -100,7 +101,7 @@
 
 <!-- SH Styles -->
   <style name="sh:others" map-to="text"/>
-  
+
 <!-- XML Styles -->
   <style name="xml:attribute-name" foreground="keyword"/>
   <style name="xml:element-name" foreground="keyword"/>

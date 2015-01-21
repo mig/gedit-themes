@@ -4,6 +4,7 @@
 	<_description>Autumn theme</_description>
 	<style background="#f0f2f0" foreground="#Black" name="text"/>
 	<style background="#red" foreground="#black" name="cursor"/>
+	<style background="#aaccaa" foreground="#fcfcfc" name="selection"/>
 	<style background="#447744" foreground="#aaeeaa" name="diff:added-line"/>
 	<style background="#ddbb55" foreground="#lightyellow" name="diff:changed-line"/>
 	<style background="#aaccaa" foreground="#336633" name="diff:removed-line"/>

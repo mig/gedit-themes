@@ -43,7 +43,8 @@
   <style name="cursor" foreground="black"/>
   <style name="current-line" background="light_grey"/>
   <style name="line-numbers" foreground="black_grey" background="white"/>
-  
+  <style name="selection" background="dark_grey"/>
+
 <!-- Bracket Matching -->
   <style name="bracket-match" background="steelblue3"/>
   <style name="bracket-mismatch" background="maroon" bold="true"/>
@@ -65,7 +66,7 @@
   <style name="def:keyword" foreground="orange"/>
   <style name="def:builtin" foreground="orange" bold="true"/>
   <style name="def:variable" foreground="black"/>
-  
+
 <!-- Identifiers -->
   <style name="def:identifier" foreground="black"/>
 
@@ -74,13 +75,13 @@
 
 <!-- Types -->
   <style name="def:type" foreground="purple"/>
-  
+
 <!-- Others -->
   <style name="def:error" foreground="white" background="maroon" bold="true"/>
   <style name="def:note" foreground="red" bold="true"/>
   <style name="def:net-address-in-comment" foreground="steelblue3" italic="false" underline="true"/>
   <style name="def:preprocessor" color="maroon"/>
-    
+
 <!-- Unknown? -->
   <style name="def:specials" background="orange"/>
 
@@ -97,7 +98,7 @@
 
 <!-- SH Styles -->
   <style name="sh:others" map-to="text"/>
-  
+
 <!-- XML Styles -->
   <style name="xml:attribute-name" foreground="purple"/>
   <style name="xml:element-name" foreground="maroon"/>

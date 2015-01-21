@@ -1,54 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
+  GEdit theme heavily inspired by the Adobe Brackets WebDE. Best with the 
+  Brackets Source-Code-Pro font, which can be downloaded there:
+  https://github.com/adobe/Source-Code-Pro
+  
+  On Gnome Tweak Tool, set Hinting to "Slight" and Antialiasing to "Grayscale"
 
- Copyright (C) 2009 Felipe Mesquita <fmesquitacunha@gmail.com>
-
- This library is free software; you can redistribute it and/or
- modify it under the terms of the GNU Library General Public
- License as published by the Free Software Foundation; either
- version 2 of the License, or (at your option) any later version.
-
- This library is distributed in the hope that it will be useful,
- but WITHOUT ANY WARRANTY; without even the implied warranty of
- MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
- Library General Public License for more details.
-
- You should have received a copy of the GNU Library General Public
- License along with this library; if not, write to the
- Free Software Foundation, Inc., 59 Temple Place - Suite 330,
- Boston, MA 02111-1307, USA.
-
+  Enjoy!
 -->
-<style-scheme id="github" _name="Github" version="1.0">
-  <author>Felipe Mesquita</author>
-  <description>A clone of the Github theme for Gedit.</description>
+
+<style-scheme id="brackets" _name="Brackets" version="1.0">
+  <author>R. Tisserand</author>
+	<_description>An Adobe Brackets theme clone for GEdit</_description>
 
 <!-- Colors -->
 
-  <color name="background" value="#F8F8FF"/>
+  <!-- Done -->
+  <color name="background" value="#F8F8F8"/>
+  <color name="foreground" value="#535353"/>
   <color name="caret" value="#000000"/>
-  <color name="foreground" value="#000000"/>
-  <color name="highlight" value="#000012"/>
-  <color name="comment" value="#999988"/>
-  <color name="keyword" value="#000000"/>
+  <color name="string" value="#EB9B2F"/>
+  <color name="number" value="#6D8600"/>
+  <color name="keyword" value="#4F77C0"/>
+<!--  <color name="current-line" value="#F2E5BF"/> -->
+  <color name="comment" value="#909090"/>
+  <color name="highlight" value="#ABDFFA"/>
+  <color name="class" value="#577EC4"/>
+  <color name="selection" value="#ABDFFA"/>
+  
   <color name="function" value="#990000"/>
-  <color name="class" value="#445588"/>
-  <color name="number" value="#009999"/>
   <color name="variable" value="#008080"/>
-  <color name="constant" value="#0F8787"/>
-  <color name="constant2" value="#0F8787"/>
-  <color name="string" value="#DD1144"/>
-  <color name="symbol" value="#AA2C8C"/>
-  <color name="identifier" value="#0086b3"/>
-  <color name="selection" value="#B7D0ED"/>
-  <color name="current-line" value="#F2E5BF"/>
+  <color name="constant" value="#4F77C0"/>
+  <color name="constant2" value="#535353"/>
+  <color name="symbol" value="#956AB6"/>
+  <color name="identifier" value="#956AB6"/>
+  <color name="white" value="#FFFFFF"/>
 
 <!-- Global Settings -->
 
+  <!-- Done -->
+  <style name="line-numbers" foreground="#BBBBBB" background="background"/>
+<!--  <style name="current-line" background="current-line"/> -->
+
   <style name="text" foreground="foreground" background="background"/>
   <style name="cursor" foreground="foreground"/>
-  <style name="current-line" background="current-line"/>
-  <style name="line-numbers" foreground="foreground" background="background"/>
   <style name="selection" background="selection"/>
 
 <!-- Bracket Matching -->
@@ -57,8 +52,10 @@
   <style name="search-match" foreground="foreground" background="caret"/>
 
 <!-- Comments -->
-  <style name="def:comment" foreground="comment" italic="true"/>
-  <style name="def:shebang" foreground="comment" italic="true"/>
+  <!-- Done -->
+  <style name="def:comment" foreground="comment" italic="false"/>
+  <style name="def:shebang" foreground="comment" italic="false"/>
+  
   <style name="def:doc-comment-element" foreground="comment" bold="true"/>
 
 <!-- Constants and Variables-->
@@ -80,7 +77,7 @@
   <style name="def:statement" foreground="constant"/>
 
 <!-- Types -->
-  <style name="def:type" foreground="class" bold="true"/>
+  <style name="def:type" foreground="class" bold="false"/>
 
 <!-- Others -->
   <style name="def:error" foreground="highlight" bold="true"/>
@@ -111,3 +108,4 @@
   <style name="xml:element-name" foreground="keyword"/>
 
 </style-scheme>
+

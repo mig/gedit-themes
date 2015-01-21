@@ -5,6 +5,9 @@
 	<style background="#222222" foreground="#f2f2f2" name="text"/>
 	<style background="#aaaaaa" name="cursor"/>
 	<style background="#peru" foreground="#wheat" name="search-match"/>
+	<style background="#454545" name="current-line"/>
+	<style background="#999999" name="selection"/>
+
 	<style foreground="#ed9d13" name="def:string"/>
 	<style foreground="#ed9d13" name="def:constant"/>
 	<style foreground="#3677a9" name="def:number"/>
@@ -14,4 +17,3 @@
 	<style foreground="#999999" italic="true" name="def:comment"/>
 	<style bold="true" foreground="#bbbbbb" name="def:type"/>
 </style-scheme>
-

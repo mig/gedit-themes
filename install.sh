@@ -1,5 +1,7 @@
 #!/bin/sh
 set -v
 
-mkdir -p $HOME/.gnome2/gedit/styles
-cp ./*.xml $HOME/.gnome2/gedit/styles/.
+STYLE_LOCATION=$HOME/.local/share/gedit/styles/
+
+mkdir -p $STYLE_LOCATION
+cp ./*.xml $STYLE_LOCATION

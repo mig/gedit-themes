@@ -1,0 +1,24 @@
+<?xml version="1.0" ?>
+<style-scheme id="nord" name="Nord" version="1.0">
+	<author/>
+	<_description>Nord theme</_description>
+	<!-- Base -->
+	<style background="#aaaaaa" name="cursor"/>
+	<style background="#3B4252" name="current-line"/>
+	<style background="#2e3440" foreground="#d8dee9" name="text"/>
+	<style background="#ffae00" foreground="#800000" name="search-match"/>
+	<style background="#3B4252" foreground="#d8dee9" name="line-numbers"/>
+	
+	<!-- Others! -->
+	<style foreground="#d8dee9" name="def:string"/>
+	<style foreground="#0086d2" name="def:constant"/>
+	<style foreground="#fd8900" name="def:specials"/>
+	<style bold="true" foreground="#81A1C1" name="def:type"/>
+	<style bold="true" foreground="#0086f7" name="def:number"/>
+	<style bold="true" foreground="#5e81ac" name="def:function"/>
+	<style bold="true" foreground="#5E81AC" name="def:statement"/>
+	<style bold="true" foreground="#5e81ac" name="def:identifier"/>
+	<style italic ="true" foreground="#8fbcbb" name="def:comment"/>
+	<style bold="true" foreground="#8FBCBB" name="def:preprocessor"/>	
+	<style bold="true" background="#BF616A" foreground="#d8dee9" name="def:error"/>
+</style-scheme>

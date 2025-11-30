@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<style-scheme id="CalmCoder" _name="calmcoder" version="1.0">
+  <author>Vikas Yadav</author>
+  <_description>Cool colors theme</_description>
+  
+  <!-- Global Settings -->
+  <style name="text" foreground="#white" background="#teal" />
+  <style name="selection" foreground="#teal" background="#palegoldenrod"/>
+  <style name="current-line"  background="#gray"/>
+  <style name="line-numbers" foreground="#deeppink" background="#cccccc" />
+  <style name="search-match"  background="#333333" bold="true" underline="true"/>
+  
+    <!-- bracket matching -->
+  <style name="bracket-match" foreground="#ffcc66"  bold="true"/>
+  <style name="bracket-mismatch" foreground="#a81818" />
+  <style name="c:preprocessor" foreground="#ffcc33"/>
+  <style name="css:at-rules" foreground="#eee8aa"/>
+  <style name="css:color" foreground="#ffcc33"/>
+  <style name="css:keyword" foreground="#66d9ef"/>
+  <style name="cursor" foreground="#khaki" bold="true"/>
+  
+  <!-- HTML -->
+  <style name="html:dtd" foreground="#ffcc33"/>
+  <style name="html:tag" foreground="#eee8aa"/>
+  <style name="js:function" foreground="#ff0033"/>
+  
+  <!-- XML -->
+  <style name="xml:attribute-name" foreground="#white"/>
+  <style name="xml:element-name" foreground="#ccff00"/>
+  <style name="xml:entity" foreground="#c8cecc"/>
+  <style name="xml:namespace" foreground="#eee8aa"/>
+  <style name="xml:tag" foreground="#22cccc"/>
+
+  <!--PHP -->
+  <style name="php:string" foreground="#e9967a"/>
+  <style name="draw-spaces" foreground="#bb336b"/>
+  
+  <style name="def:base-n-integer" foreground="#ffcc33"/>
+  <style name="def:boolean" foreground="#ffcc33"/>
+  <style name="def:builtin" foreground="#ffcc33"/>
+  <style name="def:character" foreground="#ffcc33"/>
+  <style name="def:comment" foreground="#white"/>
+  <style name="def:complex" foreground="#ffcc33"/>
+  <style name="def:decimal" foreground="#ffcc33"/>
+  <style name="def:doc-comment" foreground="#chocolate"/>
+  <style name="def:doc-comment-element" foreground="#chocolate"/>
+  <style name="def:error" foreground="#f8f8f0" background="#f92672"/>
+  <style name="def:floating-point" foreground="#ffcc33"/>
+  <style name="def:function" foreground="#a6e22e"/>
+  <style name="def:identifier" foreground="#ffffff"/>
+  <style name="def:keyword" foreground="#f92672"/>
+  <style name="def:note" foreground="#chocolate"/>
+  <style name="def:number" foreground="#ffcc33"/>
+  <style name="def:operator" foreground="#f92672"/>
+  <style name="def:preprocessor" foreground="#66d9ef"/>
+  <style name="def:reserved" foreground="#f92672"/>
+  <style name="def:shebang" foreground="#chocolate"/>
+  <style name="def:special-char" foreground="#66d9ef"/>
+  <style name="def:special-constant" foreground="#ffcc33"/>
+  <style name="def:statement" foreground="#f92672"/>
+  <style name="def:string" foreground="#ffcc33"/>
+  <style name="def:type" foreground="#66d9ef" italic="true"/> 
+  </style-scheme>

@@ -1,22 +1,21 @@
-<?xml version="1.0" ?>
-<style-scheme id="autumn" name="Autumn" version="1.0">
-	<author/>
-	<_description>Autumn theme</_description>
-	<style background="#f0f2f0" foreground="#Black" name="text"/>
-	<style background="#red" foreground="#black" name="cursor"/>
-	<style background="#447744" foreground="#aaeeaa" name="diff:added-line"/>
-	<style background="#ddbb55" foreground="#lightyellow" name="diff:changed-line"/>
-	<style background="#aaccaa" foreground="#336633" name="diff:removed-line"/>
-	<style background="#lightgrey" foreground="#brown" name="line-numbers"/>
-	<style background="#yellow" foreground="#black" name="search-match"/>
-	<style background="#bg" foreground="#ccaaaa" name="def:comment"/>
-	<style background="#bg" foreground="#ccaaaa" name="def:comment"/>
-	<style background="#bg" foreground="#bb6666" name="def:constant"/>
-	<style background="#bg" foreground="#darkcyan" name="def:specials"/>
-	<style background="#bg" foreground="#darkcyan" name="def:identifier"/>
-	<style background="#bg" foreground="#44aa44" name="def:statement"/>
-	<style background="#bg" foreground="#darkgrey" name="def:preprocessor"/>
-	<style background="#bg" foreground="#bb9900" name="def:type"/>
-	<style background="#bg" foreground="#0055cc" name="def:function"/>
-</style-scheme>
+<?xml encoding="UTF-8"?>
+<style-scheme id="autumn" name="Autumn" kind="light">
+  <description>Autumn theme for gedit 49</description>
 
+  <style name="text" foreground="#000000" background="#f0f2f0"/>
+  <style name="cursor" foreground="#000000" background="#ff0000"/>
+  <style name="line-numbers" foreground="#a52a2a" background="#d3d3d3"/>
+  <style name="search-match" foreground="#000000" background="#ffff00"/>
+
+  <style name="diff:added-line" foreground="#aaeeaa" background="#447744"/>
+  <style name="diff:changed-line" foreground="#ffffe0" background="#ddbb55"/>
+  <style name="diff:removed-line" foreground="#336633" background="#aaccaa"/>
+
+  <style name="def:comment" foreground="#ccaaaa"/>
+  <style name="def:constant" foreground="#bb6666"/>
+  <style name="def:identifier" foreground="#008b8b"/>
+  <style name="def:statement" foreground="#44aa44"/>
+  <style name="def:preprocessor" foreground="#a9a9a9"/>
+  <style name="def:type" foreground="#bb9900"/>
+  <style name="def:function" foreground="#0055cc"/>
+</style-scheme>

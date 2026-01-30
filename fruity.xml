@@ -1,13 +1,13 @@
-<?xml version="1.0" ?>
-<style-scheme id="fruity" name="Fruity" version="1.0">
-	<author/>
-	<_description>Fruity theme</_description>
+<?xml encoding="UTF-8"?>
+<style-scheme kind="dark" id="fruity" name="Fruity">
+	
+	<description>Fruity theme</description>
 	<style background="#111111" foreground="#ffffff" name="text"/>
 	<style background="#aaaaaa" name="cursor"/>
 	<style background="#ffae00" foreground="#800000" name="search-match"/>
 	<style background="#181818" name="current-line"/>
 	<style background="#222222" foreground="#aaaaaa" name="line-numbers"/>
-	<style foreground="#fd8900" name="def:specials"/>
+	<style foreground="#fd8900" name="def:special-char"/>
 	<style foreground="#0086d2" name="def:string"/>
 	<style foreground="#0086d2" name="def:constant"/>
 	<style bold="true" foreground="#0086f7" name="def:number"/>

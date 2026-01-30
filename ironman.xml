@@ -1,7 +1,7 @@
-<?xml version="1.0" ?>
-<style-scheme id="ironman" name="Ironman" version="1.0">
-	<author/>
-	<_description>Ironman theme</_description>
+<?xml encoding="UTF-8"?>
+<style-scheme kind="dark" id="ironman" name="Ironman">
+	
+	<description>Ironman theme</description>
 	<style foreground="#333333" name="text"/>
 	<style background="#ccff00" foreground="#303040" name="search-match"/>
 	<style background="#d0ffd0" foreground="#006800" name="diff:changed-line"/>
@@ -14,7 +14,7 @@
 	<style background="#ff4080" foreground="#ffffff" name="def:error"/>
 	<style foreground="#339933" name="def:identifier"/>
 	<style foreground="#0070e6" name="def:preprocessor"/>
-	<style background="#ccf7ee" foreground="#0000ff" name="def:specials"/>
+	<style background="#ccf7ee" foreground="#0000ff" name="def:special-char"/>
 	<style foreground="#0000FF" name="def:statement"/>
 	<style foreground="#eb7950" name="def:type"/>
 </style-scheme>

@@ -1,7 +1,7 @@
-<?xml version="1.0" ?>
-<style-scheme id="wombat" name="Wombat" version="1.0">
-	<author/>
-	<_description>Wombat theme</_description>
+<?xml encoding="UTF-8"?>
+<style-scheme kind="dark" id="wombat" name="Wombat">
+	
+	<description>Wombat theme</description>
 	<style background="#2d2d2d" name="current-line"/>
 	<style background="#857b6f" bold="true" foreground="#f6f3e8" name="bracket-match"/>
 	<style background="#656565" name="cursor"/>
@@ -17,6 +17,6 @@
 	<style foreground="#8ac6f2" name="def:keyword"/>
 	<style foreground="#e5786d" name="def:preprocessor"/>
 	<style foreground="#e5786d" name="def:number"/>
-	<style foreground="#e7f6da" name="def:specials"/>
+	<style foreground="#e7f6da" name="def:special-char"/>
 </style-scheme>
 

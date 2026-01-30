@@ -1,29 +1,31 @@
-<?xml version="1.0" ?>
-<style-scheme id="zenburn" name="Zenburn" version="1.0">
-	<author/>
-	<_description>Zenburn theme</_description>
-	<style foreground="#dca3a3" name="def:boolean"/>
-	<style foreground="#7f9f7f" name="def:comment"/>
-	<style bold="true" foreground="#dca3a3" name="def:constant"/>
-	<style background="#8faf9f" bold="true" foreground="#000d18" name="cursor"/>
-	<style background="#313c36" bold="true" foreground="#709080" name="diff:added-line"/>
-	<style background="#333333" name="diff:changed-line"/>
-	<style background="#464646" foreground="#333333" name="diff:removed-line"/>
-	<style foreground="#efef8f" name="def:function"/>
-	<style foreground="#efdcbc" name="def:identifier"/>
-	<style bold="true" foreground="#f0dfaf" name="def:keyword"/>
-	<style background="#464646" foreground="#7f8f8f" name="line-numbers"/>
-	<style background="#3f3f3f" foreground="#dcdccc" name="text"/>
-	<style foreground="#8cd0d3" name="def:number"/>
-	<style bold="true" foreground="#ffcfaf" name="def:preprocessor"/>
-	<style background="#385f38" foreground="#ffffe0" name="search-match"/>
-	<style foreground="#cfbfaf" name="def:specials"/>
-	<style background="#3f3f3f" foreground="#e3ceab" name="def:statement"/>
-	<style foreground="#cc9393" name="def:string"/>
-	<style bold="true" foreground="#dfdfbf" name="def:type"/>
-	<style background="#201010" bold="true" foreground="#ef9f9f" name="def:error"/>
-	<style background="#332323" foreground="#e37170" name="def:error"/>
-	<style name="selection" background="#ef7950" />
-	<style name="selection-unfocused" background="#ef7950" />
-</style-scheme>
+<?xml version="1.0" encoding="UTF-8"?>
+<style-scheme id="zenburn" name="Zenburn" kind="dark">
+    <description>Zenburn theme</description>
 
+    <style name="text"                background="#3f3f3f" foreground="#dcdccc"/>
+    <style name="cursor"              background="#8faf9f" foreground="#000d18" bold="true"/>
+    <style name="line-numbers"        background="#464646" foreground="#7f8f8f"/>
+    <style name="search-match"        background="#385f38" foreground="#ffffe0"/>
+    <style name="selection"           background="#ef7950"/>
+    <style name="selection-unfocused" background="#ef7950"/>
+
+    <style name="diff:added-line"     background="#313c36" foreground="#709080" bold="true"/>
+    <style name="diff:changed-line"   background="#333333"/>
+    <style name="diff:removed-line"   background="#464646" foreground="#333333"/>
+
+    <style name="def:boolean"         foreground="#dca3a3"/>
+    <style name="def:comment"         foreground="#7f9f7f"/>
+    <style name="def:constant"        foreground="#dca3a3" bold="true"/>
+    <style name="def:function"        foreground="#efef8f"/>
+    <style name="def:identifier"      foreground="#efdcbc"/>
+    <style name="def:keyword"         foreground="#f0dfaf" bold="true"/>
+    <style name="def:number"          foreground="#8cd0d3"/>
+    <style name="def:preprocessor"    foreground="#ffcfaf" bold="true"/>
+    <style name="def:special-char"    foreground="#cfbfaf"/>
+    <style name="def:statement"       background="#3f3f3f" foreground="#e3ceab"/>
+    <style name="def:string"          foreground="#cc9393"/>
+    <style name="def:type"            foreground="#dfdfbf" bold="true"/>
+    
+    <style name="def:error"           background="#201010" foreground="#ef9f9f" bold="true"/>
+
+</style-scheme>

@@ -1,17 +1,18 @@
-<?xml version="1.0" ?>
-<style-scheme id="native" name="Native" version="1.0">
-	<author/>
-	<_description>Native theme</_description>
-	<style background="#222222" foreground="#f2f2f2" name="text"/>
-	<style background="#aaaaaa" name="cursor"/>
-	<style background="#peru" foreground="#wheat" name="search-match"/>
-	<style foreground="#ed9d13" name="def:string"/>
-	<style foreground="#ed9d13" name="def:constant"/>
-	<style foreground="#3677a9" name="def:number"/>
-	<style bold="true" foreground="#6ab825" name="def:statement"/>
-	<style foreground="#447fcf" name="def:function"/>
-	<style bold="true" foreground="#cd2828" name="def:preprocessor"/>
-	<style foreground="#999999" italic="true" name="def:comment"/>
-	<style bold="true" foreground="#bbbbbb" name="def:type"/>
-</style-scheme>
+<?xml encoding="UTF-8"?>
+<style-scheme id="native" name="Native" kind="dark">
+    <description>Native theme</description>
 
+    <style name="text" background="#222222" foreground="#f2f2f2"/>
+    <style name="cursor" background="#aaaaaa"/>
+    
+    <style name="search-match" background="#cd853f" foreground="#f5deb3"/>
+
+    <style name="def:string" foreground="#ed9d13"/>
+    <style name="def:constant" foreground="#ed9d13"/>
+    <style name="def:number" foreground="#3677a9"/>
+    <style name="def:statement" foreground="#6ab825" bold="true"/>
+    <style name="def:function" foreground="#447fcf"/>
+    <style name="def:preprocessor" foreground="#cd2828" bold="true"/>
+    <style name="def:comment" foreground="#999999" italic="true"/>
+    <style name="def:type" foreground="#bbbbbb" bold="true"/>
+</style-scheme>

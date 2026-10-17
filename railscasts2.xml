@@ -1,7 +1,7 @@
-<?xml version="1.0" ?>
-<style-scheme id="railscasts" name="Railscasts" version="1.0">
-	<author/>
-	<_description>Railscasts theme</_description>
+<?xml encoding="UTF-8"?>
+<style-scheme kind="dark" id="railscasts" name="Railscasts">
+	
+	<description>Railscasts theme</description>
 	<style background="#2B2B2B" foreground="#E6E1DC" name="text"/>
 	<style background="#FFFFFF" foreground="#000000" name="cursor"/>
 	<style foreground="#BC9458" italic="true" name="def:comment"/>
